@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C03A0F821CF735D00BB3999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A0F721CF735D00BB3999 /* AppDelegate.swift */; };
+		5C03A0FD21CF735D00BB3999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C03A0FB21CF735D00BB3999 /* Main.storyboard */; };
+		5C03A10221CF735F00BB3999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C03A10021CF735F00BB3999 /* LaunchScreen.storyboard */; };
+		5C03A10A21CF75E600BB3999 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A10921CF75E600BB3999 /* MainTabBarController.swift */; };
+		5C03A14221CF7AC500BB3999 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13B21CF775800BB3999 /* HomePostCell.swift */; };
+		5C03A14321CF7AC700BB3999 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13A21CF775800BB3999 /* HomeController.swift */; };
+		5C03A14421CF7ACA00BB3999 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A12F21CF769900BB3999 /* SignUpController.swift */; };
+		5C03A14521CF7ACC00BB3999 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13021CF769900BB3999 /* LoginController.swift */; };
+		5C03A14621CF7ACF00BB3999 /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13121CF76CD00BB3999 /* FirebaseUtils.swift */; };
+		5C03A14721CF7AD100BB3999 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13321CF76CD00BB3999 /* Extensions.swift */; };
+		5C03A14821CF7AD300BB3999 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13221CF76CD00BB3999 /* CustomImageView.swift */; };
+		5C03A14921CF7AD600BB3999 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13421CF771B00BB3999 /* SharePhotoController.swift */; };
+		5C03A14A21CF7AD800BB3999 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13621CF771B00BB3999 /* PhotoSelectorHeader.swift */; };
+		5C03A14B21CF7ADA00BB3999 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13721CF771B00BB3999 /* PhotoSelectorCell.swift */; };
+		5C03A14C21CF7ADC00BB3999 /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13521CF771B00BB3999 /* PhotoSelectorController.swift */; };
+		5C03A14D21CF7ADF00BB3999 /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13F21CF778100BB3999 /* UserProfilePhotoCell.swift */; };
+		5C03A14E21CF7AE100BB3999 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A14021CF778100BB3999 /* UserProfileHeader.swift */; };
+		5C03A14F21CF7AE400BB3999 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13E21CF778100BB3999 /* UserProfileController.swift */; };
+		5C03A15021CF7AE600BB3999 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13821CF774300BB3999 /* User.swift */; };
+		5C03A15121CF7AE900BB3999 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13921CF774300BB3999 /* Post.swift */; };
+		5C03A15221CF7BCE00BB3999 /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13C21CF776E00BB3999 /* UserSearchController.swift */; };
+		5C03A15321CF7C1A00BB3999 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03A13D21CF776E00BB3999 /* UserSearchCell.swift */; };
+		5C03A15421CF7C3C00BB3999 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C03A10B21CF760D00BB3999 /* GoogleService-Info.plist */; };
+		5C03A15721CF7E1300BB3999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C03A15621CF7E1300BB3999 /* Assets.xcassets */; };
+		6CBF6F8D151DF32BE37B07DD /* Pods_Induk_SNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2320DE9AD78EDA899C0CC1 /* Pods_Induk_SNS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		368A2239A95BF0187DCC3178 /* Pods-Induk_SNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Induk_SNS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Induk_SNS/Pods-Induk_SNS.debug.xcconfig"; sourceTree = "<group>"; };
+		485459A6C9B34F82C244D726 /* Pods-Induk_SNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Induk_SNS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Induk_SNS/Pods-Induk_SNS.release.xcconfig"; sourceTree = "<group>"; };
+		5C03A0F421CF735D00BB3999 /* Induk_SNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Induk_SNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03A0F721CF735D00BB3999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C03A0FC21CF735D00BB3999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C03A10121CF735F00BB3999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C03A10321CF735F00BB3999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C03A10921CF75E600BB3999 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		5C03A10B21CF760D00BB3999 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C03A12F21CF769900BB3999 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		5C03A13021CF769900BB3999 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5C03A13121CF76CD00BB3999 /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		5C03A13221CF76CD00BB3999 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		5C03A13321CF76CD00BB3999 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5C03A13421CF771B00BB3999 /* SharePhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
+		5C03A13521CF771B00BB3999 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
+		5C03A13621CF771B00BB3999 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		5C03A13721CF771B00BB3999 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		5C03A13821CF774300BB3999 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5C03A13921CF774300BB3999 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5C03A13A21CF775800BB3999 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5C03A13B21CF775800BB3999 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
+		5C03A13C21CF776E00BB3999 /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		5C03A13D21CF776E00BB3999 /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
+		5C03A13E21CF778100BB3999 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		5C03A13F21CF778100BB3999 /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
+		5C03A14021CF778100BB3999 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		5C03A15621CF7E1300BB3999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2320DE9AD78EDA899C0CC1 /* Pods_Induk_SNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Induk_SNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C03A0F121CF735D00BB3999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBF6F8D151DF32BE37B07DD /* Pods_Induk_SNS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352CBE8C04B447D26F1CDA85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				368A2239A95BF0187DCC3178 /* Pods-Induk_SNS.debug.xcconfig */,
+				485459A6C9B34F82C244D726 /* Pods-Induk_SNS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C03A0EB21CF735D00BB3999 = {
+			isa = PBXGroup;
+			children = (
+				5C03A0F621CF735D00BB3999 /* Induk_SNS */,
+				5C03A0F521CF735D00BB3999 /* Products */,
+				352CBE8C04B447D26F1CDA85 /* Pods */,
+				8E036D1B53A4B8E2BFC6E9A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C03A0F521CF735D00BB3999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A0F421CF735D00BB3999 /* Induk_SNS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C03A0F621CF735D00BB3999 /* Induk_SNS */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A14121CF786F00BB3999 /* Sources */,
+				5C03A0FB21CF735D00BB3999 /* Main.storyboard */,
+				5C03A10021CF735F00BB3999 /* LaunchScreen.storyboard */,
+				5C03A15621CF7E1300BB3999 /* Assets.xcassets */,
+				5C03A10321CF735F00BB3999 /* Info.plist */,
+				5C03A10B21CF760D00BB3999 /* GoogleService-Info.plist */,
+			);
+			path = Induk_SNS;
+			sourceTree = "<group>";
+		};
+		5C03A12821CF763B00BB3999 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13D21CF776E00BB3999 /* UserSearchCell.swift */,
+				5C03A13C21CF776E00BB3999 /* UserSearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5C03A12921CF764300BB3999 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13A21CF775800BB3999 /* HomeController.swift */,
+				5C03A13B21CF775800BB3999 /* HomePostCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5C03A12A21CF764D00BB3999 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13021CF769900BB3999 /* LoginController.swift */,
+				5C03A12F21CF769900BB3999 /* SignUpController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5C03A12B21CF765A00BB3999 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13221CF76CD00BB3999 /* CustomImageView.swift */,
+				5C03A13321CF76CD00BB3999 /* Extensions.swift */,
+				5C03A13121CF76CD00BB3999 /* FirebaseUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5C03A12C21CF766800BB3999 /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13521CF771B00BB3999 /* PhotoSelectorController.swift */,
+				5C03A13721CF771B00BB3999 /* PhotoSelectorCell.swift */,
+				5C03A13621CF771B00BB3999 /* PhotoSelectorHeader.swift */,
+				5C03A13421CF771B00BB3999 /* SharePhotoController.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		5C03A12D21CF766E00BB3999 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13E21CF778100BB3999 /* UserProfileController.swift */,
+				5C03A14021CF778100BB3999 /* UserProfileHeader.swift */,
+				5C03A13F21CF778100BB3999 /* UserProfilePhotoCell.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		5C03A12E21CF767600BB3999 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A13921CF774300BB3999 /* Post.swift */,
+				5C03A13821CF774300BB3999 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C03A14121CF786F00BB3999 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5C03A0F721CF735D00BB3999 /* AppDelegate.swift */,
+				5C03A10921CF75E600BB3999 /* MainTabBarController.swift */,
+				5C03A12E21CF767600BB3999 /* Models */,
+				5C03A12D21CF766E00BB3999 /* UserProfile */,
+				5C03A12C21CF766800BB3999 /* AddPhoto */,
+				5C03A12B21CF765A00BB3999 /* Utils */,
+				5C03A12A21CF764D00BB3999 /* Login */,
+				5C03A12921CF764300BB3999 /* Home */,
+				5C03A12821CF763B00BB3999 /* Search */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8E036D1B53A4B8E2BFC6E9A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2320DE9AD78EDA899C0CC1 /* Pods_Induk_SNS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C03A0F321CF735D00BB3999 /* Induk_SNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C03A10621CF735F00BB3999 /* Build configuration list for PBXNativeTarget "Induk_SNS" */;
+			buildPhases = (
+				9DF4A43585B1ED5CB7C50EB3 /* [CP] Check Pods Manifest.lock */,
+				5C03A0F021CF735D00BB3999 /* Sources */,
+				5C03A0F121CF735D00BB3999 /* Frameworks */,
+				5C03A0F221CF735D00BB3999 /* Resources */,
+				448DAE1DE7B1CA67885B0731 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Induk_SNS;
+			productName = Induk_SNS;
+			productReference = 5C03A0F421CF735D00BB3999 /* Induk_SNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C03A0EC21CF735D00BB3999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = seungjin;
+				TargetAttributes = {
+					5C03A0F321CF735D00BB3999 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C03A0EF21CF735D00BB3999 /* Build configuration list for PBXProject "Induk_SNS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C03A0EB21CF735D00BB3999;
+			productRefGroup = 5C03A0F521CF735D00BB3999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C03A0F321CF735D00BB3999 /* Induk_SNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C03A0F221CF735D00BB3999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03A10221CF735F00BB3999 /* LaunchScreen.storyboard in Resources */,
+				5C03A15421CF7C3C00BB3999 /* GoogleService-Info.plist in Resources */,
+				5C03A15721CF7E1300BB3999 /* Assets.xcassets in Resources */,
+				5C03A0FD21CF735D00BB3999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		448DAE1DE7B1CA67885B0731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Induk_SNS/Pods-Induk_SNS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Induk_SNS/Pods-Induk_SNS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF4A43585B1ED5CB7C50EB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Induk_SNS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C03A0F021CF735D00BB3999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03A15321CF7C1A00BB3999 /* UserSearchCell.swift in Sources */,
+				5C03A14421CF7ACA00BB3999 /* SignUpController.swift in Sources */,
+				5C03A14B21CF7ADA00BB3999 /* PhotoSelectorCell.swift in Sources */,
+				5C03A14821CF7AD300BB3999 /* CustomImageView.swift in Sources */,
+				5C03A14521CF7ACC00BB3999 /* LoginController.swift in Sources */,
+				5C03A14321CF7AC700BB3999 /* HomeController.swift in Sources */,
+				5C03A14921CF7AD600BB3999 /* SharePhotoController.swift in Sources */,
+				5C03A15221CF7BCE00BB3999 /* UserSearchController.swift in Sources */,
+				5C03A14721CF7AD100BB3999 /* Extensions.swift in Sources */,
+				5C03A15021CF7AE600BB3999 /* User.swift in Sources */,
+				5C03A14A21CF7AD800BB3999 /* PhotoSelectorHeader.swift in Sources */,
+				5C03A14C21CF7ADC00BB3999 /* PhotoSelectorController.swift in Sources */,
+				5C03A0F821CF735D00BB3999 /* AppDelegate.swift in Sources */,
+				5C03A14F21CF7AE400BB3999 /* UserProfileController.swift in Sources */,
+				5C03A10A21CF75E600BB3999 /* MainTabBarController.swift in Sources */,
+				5C03A14D21CF7ADF00BB3999 /* UserProfilePhotoCell.swift in Sources */,
+				5C03A14E21CF7AE100BB3999 /* UserProfileHeader.swift in Sources */,
+				5C03A15121CF7AE900BB3999 /* Post.swift in Sources */,
+				5C03A14621CF7ACF00BB3999 /* FirebaseUtils.swift in Sources */,
+				5C03A14221CF7AC500BB3999 /* HomePostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C03A0FB21CF735D00BB3999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C03A0FC21CF735D00BB3999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C03A10021CF735F00BB3999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C03A10121CF735F00BB3999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C03A10421CF735F00BB3999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C03A10521CF735F00BB3999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C03A10721CF735F00BB3999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368A2239A95BF0187DCC3178 /* Pods-Induk_SNS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNMQE42DQF;
+				INFOPLIST_FILE = Induk_SNS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinShine.Induk-SNS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C03A10821CF735F00BB3999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485459A6C9B34F82C244D726 /* Pods-Induk_SNS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNMQE42DQF;
+				INFOPLIST_FILE = Induk_SNS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinShine.Induk-SNS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C03A0EF21CF735D00BB3999 /* Build configuration list for PBXProject "Induk_SNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03A10421CF735F00BB3999 /* Debug */,
+				5C03A10521CF735F00BB3999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C03A10621CF735F00BB3999 /* Build configuration list for PBXNativeTarget "Induk_SNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03A10721CF735F00BB3999 /* Debug */,
+				5C03A10821CF735F00BB3999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C03A0EC21CF735D00BB3999 /* Project object */;
+}

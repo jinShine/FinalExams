@@ -1,0 +1,6 @@
+framework module Pods_Induk_SNS {
+  umbrella header "Pods-Induk_SNS-umbrella.h"
+
+  export *
+  module * { export * }
+}
